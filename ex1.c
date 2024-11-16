@@ -23,7 +23,7 @@ int main() {
   int x1 = n >> p;
   x1 = x1 & 1;
 
-  printf("The bit in position %d of the number %d is: %d\n", p, n, x1);
+  printf("The bit in position %d of number %d is: %d\n", p, n, x1);
 
   // Set bit
   printf("\nSet bit:\n");
@@ -83,15 +83,15 @@ int main() {
 
   int n1 , n2;
 
-  printf("please enter the first number (octal):\n");
+  printf("Please enter the first number (octal):\n");
   scanf("%o", &n1);
 
-  printf("please enter the second number (octal):\n");
+  printf("Please enter the second number (octal):\n");
   scanf("%o", &n2);
 
   int n3 = n1 + n2;
 
-  printf("The sum in hexadecimal: %x\n", n3);
+  printf("The sum in hexadecimal: %X\n", n3);
 
   int d3 = (n3 >> 3) & 1;
   int d5 = (n3 >> 5) & 1;
